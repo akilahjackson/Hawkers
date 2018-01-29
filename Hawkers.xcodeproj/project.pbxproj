@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7495CEF5201FA20800C77827 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CEF4201FA20800C77827 /* AppDelegate.swift */; };
+		7495CEF7201FA20800C77827 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CEF6201FA20800C77827 /* ViewController.swift */; };
+		7495CEF9201FA20800C77827 /* Document.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CEF8201FA20800C77827 /* Document.swift */; };
+		7495CEFB201FA20800C77827 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7495CEFA201FA20800C77827 /* Assets.xcassets */; };
+		7495CEFE201FA20800C77827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495CEFC201FA20800C77827 /* Main.storyboard */; };
+		7495CF0A201FA20800C77827 /* HawkersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CF09201FA20800C77827 /* HawkersTests.swift */; };
+		7495CF15201FA20800C77827 /* HawkersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CF14201FA20800C77827 /* HawkersUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7495CF06201FA20800C77827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7495CEE9201FA20800C77827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7495CEF0201FA20800C77827;
+			remoteInfo = Hawkers;
+		};
+		7495CF11201FA20800C77827 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7495CEE9201FA20800C77827 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7495CEF0201FA20800C77827;
+			remoteInfo = Hawkers;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7495CEF1201FA20800C77827 /* Hawkers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hawkers.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7495CEF4201FA20800C77827 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7495CEF6201FA20800C77827 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7495CEF8201FA20800C77827 /* Document.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Document.swift; sourceTree = "<group>"; };
+		7495CEFA201FA20800C77827 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7495CEFD201FA20800C77827 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7495CEFF201FA20800C77827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7495CF00201FA20800C77827 /* Hawkers.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Hawkers.entitlements; sourceTree = "<group>"; };
+		7495CF05201FA20800C77827 /* HawkersTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HawkersTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7495CF09201FA20800C77827 /* HawkersTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkersTests.swift; sourceTree = "<group>"; };
+		7495CF0B201FA20800C77827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7495CF10201FA20800C77827 /* HawkersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HawkersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7495CF14201FA20800C77827 /* HawkersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkersUITests.swift; sourceTree = "<group>"; };
+		7495CF16201FA20800C77827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7495CEEE201FA20800C77827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7495CF02201FA20800C77827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7495CF0D201FA20800C77827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7495CEE8201FA20800C77827 = {
+			isa = PBXGroup;
+			children = (
+				7495CEF3201FA20800C77827 /* Hawkers */,
+				7495CF08201FA20800C77827 /* HawkersTests */,
+				7495CF13201FA20800C77827 /* HawkersUITests */,
+				7495CEF2201FA20800C77827 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7495CEF2201FA20800C77827 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7495CEF1201FA20800C77827 /* Hawkers.app */,
+				7495CF05201FA20800C77827 /* HawkersTests.xctest */,
+				7495CF10201FA20800C77827 /* HawkersUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7495CEF3201FA20800C77827 /* Hawkers */ = {
+			isa = PBXGroup;
+			children = (
+				7495CEF4201FA20800C77827 /* AppDelegate.swift */,
+				7495CEF6201FA20800C77827 /* ViewController.swift */,
+				7495CEF8201FA20800C77827 /* Document.swift */,
+				7495CEFA201FA20800C77827 /* Assets.xcassets */,
+				7495CEFC201FA20800C77827 /* Main.storyboard */,
+				7495CEFF201FA20800C77827 /* Info.plist */,
+				7495CF00201FA20800C77827 /* Hawkers.entitlements */,
+			);
+			path = Hawkers;
+			sourceTree = "<group>";
+		};
+		7495CF08201FA20800C77827 /* HawkersTests */ = {
+			isa = PBXGroup;
+			children = (
+				7495CF09201FA20800C77827 /* HawkersTests.swift */,
+				7495CF0B201FA20800C77827 /* Info.plist */,
+			);
+			path = HawkersTests;
+			sourceTree = "<group>";
+		};
+		7495CF13201FA20800C77827 /* HawkersUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7495CF14201FA20800C77827 /* HawkersUITests.swift */,
+				7495CF16201FA20800C77827 /* Info.plist */,
+			);
+			path = HawkersUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7495CEF0201FA20800C77827 /* Hawkers */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7495CF19201FA20800C77827 /* Build configuration list for PBXNativeTarget "Hawkers" */;
+			buildPhases = (
+				7495CEED201FA20800C77827 /* Sources */,
+				7495CEEE201FA20800C77827 /* Frameworks */,
+				7495CEEF201FA20800C77827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hawkers;
+			productName = Hawkers;
+			productReference = 7495CEF1201FA20800C77827 /* Hawkers.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7495CF04201FA20800C77827 /* HawkersTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7495CF1C201FA20800C77827 /* Build configuration list for PBXNativeTarget "HawkersTests" */;
+			buildPhases = (
+				7495CF01201FA20800C77827 /* Sources */,
+				7495CF02201FA20800C77827 /* Frameworks */,
+				7495CF03201FA20800C77827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7495CF07201FA20800C77827 /* PBXTargetDependency */,
+			);
+			name = HawkersTests;
+			productName = HawkersTests;
+			productReference = 7495CF05201FA20800C77827 /* HawkersTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7495CF0F201FA20800C77827 /* HawkersUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7495CF1F201FA20800C77827 /* Build configuration list for PBXNativeTarget "HawkersUITests" */;
+			buildPhases = (
+				7495CF0C201FA20800C77827 /* Sources */,
+				7495CF0D201FA20800C77827 /* Frameworks */,
+				7495CF0E201FA20800C77827 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7495CF12201FA20800C77827 /* PBXTargetDependency */,
+			);
+			name = HawkersUITests;
+			productName = HawkersUITests;
+			productReference = 7495CF10201FA20800C77827 /* HawkersUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7495CEE9201FA20800C77827 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Akilah Jackson";
+				TargetAttributes = {
+					7495CEF0201FA20800C77827 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					7495CF04201FA20800C77827 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7495CEF0201FA20800C77827;
+					};
+					7495CF0F201FA20800C77827 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7495CEF0201FA20800C77827;
+					};
+				};
+			};
+			buildConfigurationList = 7495CEEC201FA20800C77827 /* Build configuration list for PBXProject "Hawkers" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7495CEE8201FA20800C77827;
+			productRefGroup = 7495CEF2201FA20800C77827 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7495CEF0201FA20800C77827 /* Hawkers */,
+				7495CF04201FA20800C77827 /* HawkersTests */,
+				7495CF0F201FA20800C77827 /* HawkersUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7495CEEF201FA20800C77827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7495CEFB201FA20800C77827 /* Assets.xcassets in Resources */,
+				7495CEFE201FA20800C77827 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7495CF03201FA20800C77827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7495CF0E201FA20800C77827 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7495CEED201FA20800C77827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7495CEF7201FA20800C77827 /* ViewController.swift in Sources */,
+				7495CEF5201FA20800C77827 /* AppDelegate.swift in Sources */,
+				7495CEF9201FA20800C77827 /* Document.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7495CF01201FA20800C77827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7495CF0A201FA20800C77827 /* HawkersTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7495CF0C201FA20800C77827 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7495CF15201FA20800C77827 /* HawkersUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7495CF07201FA20800C77827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7495CEF0201FA20800C77827 /* Hawkers */;
+			targetProxy = 7495CF06201FA20800C77827 /* PBXContainerItemProxy */;
+		};
+		7495CF12201FA20800C77827 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7495CEF0201FA20800C77827 /* Hawkers */;
+			targetProxy = 7495CF11201FA20800C77827 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7495CEFC201FA20800C77827 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7495CEFD201FA20800C77827 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7495CF17201FA20800C77827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7495CF18201FA20800C77827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		7495CF1A201FA20800C77827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hawkers/Hawkers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hawkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MME.Hawkers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		7495CF1B201FA20800C77827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = Hawkers/Hawkers.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Hawkers/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MME.Hawkers;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		7495CF1D201FA20800C77827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HawkersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MME.HawkersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hawkers.app/Contents/MacOS/Hawkers";
+			};
+			name = Debug;
+		};
+		7495CF1E201FA20800C77827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HawkersTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MME.HawkersTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Hawkers.app/Contents/MacOS/Hawkers";
+			};
+			name = Release;
+		};
+		7495CF20201FA20800C77827 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HawkersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MME.HawkersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Hawkers;
+			};
+			name = Debug;
+		};
+		7495CF21201FA20800C77827 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = HawkersUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = MME.HawkersUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = Hawkers;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7495CEEC201FA20800C77827 /* Build configuration list for PBXProject "Hawkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7495CF17201FA20800C77827 /* Debug */,
+				7495CF18201FA20800C77827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7495CF19201FA20800C77827 /* Build configuration list for PBXNativeTarget "Hawkers" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7495CF1A201FA20800C77827 /* Debug */,
+				7495CF1B201FA20800C77827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7495CF1C201FA20800C77827 /* Build configuration list for PBXNativeTarget "HawkersTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7495CF1D201FA20800C77827 /* Debug */,
+				7495CF1E201FA20800C77827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7495CF1F201FA20800C77827 /* Build configuration list for PBXNativeTarget "HawkersUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7495CF20201FA20800C77827 /* Debug */,
+				7495CF21201FA20800C77827 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7495CEE9201FA20800C77827 /* Project object */;
+}
