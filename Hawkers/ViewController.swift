@@ -11,22 +11,17 @@ import Cocoa
 class ViewController: NSViewController {
     
  
-
+    @IBOutlet weak var sidebarMenu: NSToolbarItem!
+    @IBOutlet weak var sideBar: NSStackView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
         
     }
-   
-    
-    @IBOutlet weak var hawkerslogo: NSButtonCell!
     
     
-    @IBAction func hawkerslogobtnrespons(_ sender: NSButtonCell) {
-        
-     
-    }
     
 }
 

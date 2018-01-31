@@ -3,7 +3,7 @@
 //  Hawkers
 //
 //  Created by Akilah Jackson on 1/29/18.
-//  Copyright © 2018 Akilah Jackson. All rights reserved.
+//  Copyright © 2018 Hawkers Online. All rights reserved.
 //
 
 import Cocoa

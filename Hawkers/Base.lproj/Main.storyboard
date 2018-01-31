@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.CocoaPlugin" version="13771"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+        <capability name="stacking Non-gravity area distributions on NSStackView" minToolsVersion="7.0" minSystemVersion="10.11"/>
     </dependencies>
     <scenes>
         <!--Application-->
@@ -11,11 +12,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Hawkers" id="1Xt-HY-uBw">
+                            <menuItem title="Hawkers Online" image="Hawkerslogo" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Hawkers" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="Hawkers Online" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Hawkers" id="5kV-Vb-QxS">
+                                        <menuItem title="About" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -29,7 +30,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide Hawkers" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -47,7 +48,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Hawkers" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -660,7 +661,7 @@
                                 <modifierMask key="keyEquivalentModifierMask"/>
                                 <menu key="submenu" title="Help" systemMenu="help" id="F2S-fz-NVQ">
                                     <items>
-                                        <menuItem title="Hawkers Help" keyEquivalent="?" id="FKE-Sm-Kum">
+                                        <menuItem title="Help" keyEquivalent="?" id="FKE-Sm-Kum">
                                             <connections>
                                                 <action selector="showHelp:" target="Ady-hI-5gd" id="y7X-2Q-9no"/>
                                             </connections>
@@ -684,7 +685,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController storyboardIdentifier="Document Window Controller" id="jGA-0Y-lOj" propertyAccessControl="none" sceneMemberID="viewController">
-                    <window key="window" title="Hawkers Marketplace" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="Hawkers Marketplace" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="Ckk-yw-fiv">
+                    <window key="window" title="Hawkers Online" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" frameAutosaveName="Hawkers Online" animationBehavior="default" titlebarAppearsTransparent="YES" titleVisibility="hidden" id="Ckk-yw-fiv">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES" fullSizeContentView="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -701,100 +702,85 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--View Controller-->
+        <!--Hawkers Online-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController id="5gI-5U-AMq" customClass="ViewController" customModule="Hawkers" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Hawkers Online" storyboardIdentifier="mainBoard" id="5gI-5U-AMq" customClass="ViewController" customModule="Hawkers" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" wantsLayer="YES" id="ERx-hH-rdd">
-                        <rect key="frame" x="0.0" y="0.0" width="1147" height="604"/>
+                        <rect key="frame" x="0.0" y="0.0" width="1147" height="748"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
-                            <button wantsLayer="YES" verticalHuggingPriority="750" fixedFrame="YES" allowsExpansionToolTips="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8EA-s3-EP8">
-                                <rect key="frame" x="7" y="377" width="183" height="183"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <shadow key="shadow" blurRadius="2">
-                                    <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </shadow>
+                            <stackView wantsLayer="YES" distribution="fill" orientation="vertical" alignment="leading" horizontalStackHuggingPriority="249.99998474121094" verticalStackHuggingPriority="249.99998474121094" fixedFrame="YES" detachesHiddenViews="YES" translatesAutoresizingMaskIntoConstraints="NO" id="a2P-GO-qqi">
+                                <rect key="frame" x="20" y="478" width="250" height="250"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <subviews>
+                                    <imageView horizontalHuggingPriority="251" verticalHuggingPriority="251" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" placeholderIntrinsicWidth="250" placeholderIntrinsicHeight="250" translatesAutoresizingMaskIntoConstraints="NO" id="DXH-Sv-iZd">
+                                        <rect key="frame" x="0.0" y="0.0" width="250" height="250"/>
+                                        <imageCell key="cell" refusesFirstResponder="YES" alignment="left" animates="YES" imageScaling="proportionallyDown" image="Hawkers_BW_transparentbg" id="u8x-UD-sn5"/>
+                                    </imageView>
+                                </subviews>
                                 <animations>
                                     <caTransition key="subviews">
                                         <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
-EwoLGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzW2VuZFByb2dyZXNzVHR5cGVfEBJfX0NBQ29kaW5nQ29u
-dGVudHOACIACgAOABCI/gAAAVnJldmVhbNIUCRUYWk5TLm9iamVjdHOiFheABYAGgAfSGhscHVokY2xh
-c3NuYW1lWCRjbGFzc2VzV05TQXJyYXmiHB5YTlNPYmplY3TSGhsgIVxDQVRyYW5zaXRpb26jIiMeXENB
-VHJhbnNpdGlvbltDQUFuaW1hdGlvbl8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAt
-ADIANwBBAEcAUABXAGMAaAB9AH8AgQCDAIUAigCRAJYAoQCkAKYAqACqAK8AugDDAMsAzgDXANwA6QDt
-APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
+YnBsaXN0MDDUAQIDBAUGKClYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKsHCBMU
+FRYKDAsdI1UkbnVsbNUJCgsMDQ4PEBESViRjbGFzc1tlbmRQcm9ncmVzc1R0eXBlV3N1YnR5cGVfEBJf
+X0NBQ29kaW5nQ29udGVudHOACoACgASAA4AFIj+AAABYZnJvbUxlZnRUcHVzaNIXCRgcWk5TLm9iamVj
+dHOjGRobgAaAB4AIgAnSHh8gIVokY2xhc3NuYW1lWCRjbGFzc2VzV05TQXJyYXmiICJYTlNPYmplY3TS
+Hh8kJVxDQVRyYW5zaXRpb26jJiciXENBVHJhbnNpdGlvbltDQUFuaW1hdGlvbl8QD05TS2V5ZWRBcmNo
+aXZlctEqK1Ryb290gAEACAARABoAIwAtADIANwBDAEkAVABbAGcAbAB0AIkAiwCNAI8AkQCTAJgAoQCm
+AKsAtgC6ALwAvgDAAMIAxwDSANsA4wDmAO8A9AEBAQUBEgEeATABMwE4AAAAAAAAAgEAAAAAAAAALAAA
+AAAAAAAAAAAAAAAAATo
 </mutableData>
                                     </caTransition>
                                 </animations>
-                                <buttonCell key="cell" type="smallSquare" bezelStyle="smallSquare" image="Hawkerslogo" imagePosition="only" alignment="center" alternateImage="Hawkerslogo" state="on" borderStyle="border" imageScaling="proportionallyUpOrDown" sound="Pop" inset="2" id="MX8-fs-ABI">
-                                    <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="system"/>
-                                    <connections>
-                                        <action selector="hawkerslogobtnrespons:" target="5gI-5U-AMq" id="6P2-p2-9Gb"/>
-                                    </connections>
-                                </buttonCell>
-                            </button>
-                            <scrollView wantsLayer="YES" fixedFrame="YES" autohidesScrollers="YES" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MsI-bG-pPv">
-                                <rect key="frame" x="289" y="163" width="653" height="396"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMinY="YES"/>
-                                <clipView key="contentView" wantsLayer="YES" ambiguous="YES" id="oeX-G1-Lrn">
-                                    <rect key="frame" x="1" y="1" width="651" height="394"/>
-                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                                    <subviews>
-                                        <collectionView wantsLayer="YES" ambiguous="YES" id="DY4-7u-AoH">
-                                            <rect key="frame" x="0.0" y="0.0" width="651" height="158"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES"/>
-                                            <shadow key="shadow" blurRadius="2">
-                                                <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                            </shadow>
-                                            <collectionViewFlowLayout key="collectionViewLayout" minimumInteritemSpacing="10" minimumLineSpacing="10" scrollDirection="horizontal" id="GUN-we-sre">
-                                                <size key="itemSize" width="50" height="50"/>
-                                            </collectionViewFlowLayout>
-                                            <color key="primaryBackgroundColor" name="controlBackgroundColor" catalog="System" colorSpace="catalog"/>
-                                        </collectionView>
-                                    </subviews>
-                                    <color key="backgroundColor" name="controlColor" catalog="System" colorSpace="catalog"/>
-                                </clipView>
-                                <shadow key="shadow" blurRadius="1">
-                                    <color key="color" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                </shadow>
-                                <scroller key="horizontalScroller" hidden="YES" verticalHuggingPriority="750" horizontal="YES" id="tjg-2Y-ffi">
-                                    <rect key="frame" x="1" y="379" width="651" height="16"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </scroller>
-                                <scroller key="verticalScroller" hidden="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="YK7-OK-sd0">
-                                    <rect key="frame" x="234" y="1" width="15" height="143"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </scroller>
-                            </scrollView>
+                                <visibilityPriorities>
+                                    <integer value="1000"/>
+                                </visibilityPriorities>
+                                <customSpacing>
+                                    <real value="3.4028234663852886e+38"/>
+                                </customSpacing>
+                            </stackView>
                         </subviews>
                         <animations>
                             <caTransition key="subviews">
                                 <mutableData key="keyedArchiveRepresentation">
-YnBsaXN0MDDUAQIDBAUGJCVYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKkHCBES
-EwsKGR9VJG51bGzUCQoLDA0ODxBWJGNsYXNzVHR5cGVXc3VidHlwZV8QEl9fQ0FDb2RpbmdDb250ZW50
-c4AIgAOAAoAEWGZyb21MZWZ0Vm1vdmVJbtIUCRUYWk5TLm9iamVjdHOiFheABYAGgAfSGhscHVokY2xh
-c3NuYW1lWCRjbGFzc2VzV05TQXJyYXmiHB5YTlNPYmplY3TSGhsgIVxDQVRyYW5zaXRpb26jIiMeXENB
-VHJhbnNpdGlvbltDQUFuaW1hdGlvbl8QD05TS2V5ZWRBcmNoaXZlctEmJ1Ryb290gAEACAARABoAIwAt
-ADIANwBBAEcAUABXAFwAZAB5AHsAfQB/AIEAigCRAJYAoQCkAKYAqACqAK8AugDDAMsAzgDXANwA6QDt
-APoBBgEYARsBIAAAAAAAAAIBAAAAAAAAACgAAAAAAAAAAAAAAAAAAAEiA
+YnBsaXN0MDDUAQIDBAUGICFYJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoKcHCA8Q
+CRUbVSRudWxs0wkKCwwNDlR0eXBlViRjbGFzc18QEl9fQ0FDb2RpbmdDb250ZW50c4ACgAaAA1ZyZXZl
+YWzSEQoSFFpOUy5vYmplY3RzoROABIAF0hYXGBlaJGNsYXNzbmFtZVgkY2xhc3Nlc1dOU0FycmF5ohga
+WE5TT2JqZWN00hYXHB1cQ0FUcmFuc2l0aW9uox4fGlxDQVRyYW5zaXRpb25bQ0FBbmltYXRpb25fEA9O
+U0tleWVkQXJjaGl2ZXLRIiNUcm9vdIABAAgAEQAaACMALQAyADcAPwBFAEwAUQBYAG0AbwBxAHMAegB/
+AIoAjACOAJAAlQCgAKkAsQC0AL0AwgDPANMA4ADsAP4BAQEGAAAAAAAAAgEAAAAAAAAAJAAAAAAAAAAA
+AAAAAAAAAQg
 </mutableData>
                             </caTransition>
                         </animations>
                     </view>
                     <connections>
-                        <outlet property="hawkerslogo" destination="MX8-fs-ABI" id="3Sp-d4-5CN"/>
+                        <outlet property="sideBar" destination="a2P-GO-qqi" id="5tb-3E-kqF"/>
+                        <outlet property="sidebarMenu" destination="1Dq-3g-r0H" id="lIU-c6-IZx"/>
                     </connections>
                 </viewController>
                 <customObject id="2Tp-Fl-jBw" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
+                <toolbar implicitIdentifier="09D11707-F4A3-4FD5-970E-AC5832E91C2B" autosavesConfiguration="NO" displayMode="iconOnly" sizeMode="regular" id="kii-yN-BW8">
+                    <allowedToolbarItems>
+                        <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="Bjq-tz-ZKr"/>
+                        <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="ruX-iH-ffK"/>
+                        <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="DeI-zF-qkM"/>
+                        <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="6aZ-T1-92e"/>
+                        <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="AGk-Py-XhE"/>
+                        <toolbarItem implicitItemIdentifier="9E580F33-C5DD-452B-90A1-0745389E6109" label="sidebarMenu" paletteLabel="Menu" tag="-1" image="list-icon" selectable="YES" id="1Dq-3g-r0H"/>
+                    </allowedToolbarItems>
+                    <defaultToolbarItems>
+                        <toolbarItem reference="1Dq-3g-r0H"/>
+                    </defaultToolbarItems>
+                </toolbar>
             </objects>
-            <point key="canvasLocation" x="-122.5" y="822"/>
+            <point key="canvasLocation" x="54" y="1040"/>
         </scene>
     </scenes>
     <resources>
+        <image name="Hawkers_BW_transparentbg" width="756.239990234375" height="795.1199951171875"/>
         <image name="Hawkerslogo" width="421" height="421"/>
-        <sound name="Pop"/>
+        <image name="list-icon" width="24" height="24"/>
     </resources>
 </document>
