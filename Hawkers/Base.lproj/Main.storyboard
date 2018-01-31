@@ -757,23 +757,9 @@ AAAAAAAAAQg
                     </view>
                     <connections>
                         <outlet property="sideBar" destination="a2P-GO-qqi" id="5tb-3E-kqF"/>
-                        <outlet property="sidebarMenu" destination="1Dq-3g-r0H" id="lIU-c6-IZx"/>
                     </connections>
                 </viewController>
                 <customObject id="2Tp-Fl-jBw" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
-                <toolbar implicitIdentifier="09D11707-F4A3-4FD5-970E-AC5832E91C2B" autosavesConfiguration="NO" displayMode="iconOnly" sizeMode="regular" id="kii-yN-BW8">
-                    <allowedToolbarItems>
-                        <toolbarItem implicitItemIdentifier="NSToolbarShowColorsItem" id="Bjq-tz-ZKr"/>
-                        <toolbarItem implicitItemIdentifier="NSToolbarShowFontsItem" id="ruX-iH-ffK"/>
-                        <toolbarItem implicitItemIdentifier="NSToolbarPrintItem" id="DeI-zF-qkM"/>
-                        <toolbarItem implicitItemIdentifier="NSToolbarSpaceItem" id="6aZ-T1-92e"/>
-                        <toolbarItem implicitItemIdentifier="NSToolbarFlexibleSpaceItem" id="AGk-Py-XhE"/>
-                        <toolbarItem implicitItemIdentifier="9E580F33-C5DD-452B-90A1-0745389E6109" label="sidebarMenu" paletteLabel="Menu" tag="-1" image="list-icon" selectable="YES" id="1Dq-3g-r0H"/>
-                    </allowedToolbarItems>
-                    <defaultToolbarItems>
-                        <toolbarItem reference="1Dq-3g-r0H"/>
-                    </defaultToolbarItems>
-                </toolbar>
             </objects>
             <point key="canvasLocation" x="54" y="1040"/>
         </scene>
@@ -781,6 +767,5 @@ AAAAAAAAAQg
     <resources>
         <image name="Hawkers_BW_transparentbg" width="756.239990234375" height="795.1199951171875"/>
         <image name="Hawkerslogo" width="421" height="421"/>
-        <image name="list-icon" width="24" height="24"/>
     </resources>
 </document>

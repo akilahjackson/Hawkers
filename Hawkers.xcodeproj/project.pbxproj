@@ -14,6 +14,8 @@
 		7495CEFE201FA20800C77827 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7495CEFC201FA20800C77827 /* Main.storyboard */; };
 		7495CF0A201FA20800C77827 /* HawkersTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CF09201FA20800C77827 /* HawkersTests.swift */; };
 		7495CF15201FA20800C77827 /* HawkersUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CF14201FA20800C77827 /* HawkersUITests.swift */; };
+		7495CF2C20227DF300C77827 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7495CF2A20227DF300C77827 /* Sidebar.swift */; };
+		7495CF2D20227DF300C77827 /* Sidebar.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7495CF2B20227DF300C77827 /* Sidebar.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,8 @@
 		7495CF10201FA20800C77827 /* HawkersUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HawkersUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7495CF14201FA20800C77827 /* HawkersUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HawkersUITests.swift; sourceTree = "<group>"; };
 		7495CF16201FA20800C77827 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7495CF2A20227DF300C77827 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
+		7495CF2B20227DF300C77827 /* Sidebar.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = Sidebar.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +109,8 @@
 				7495CEFC201FA20800C77827 /* Main.storyboard */,
 				7495CEFF201FA20800C77827 /* Info.plist */,
 				7495CF00201FA20800C77827 /* Hawkers.entitlements */,
+				7495CF2A20227DF300C77827 /* Sidebar.swift */,
+				7495CF2B20227DF300C77827 /* Sidebar.xib */,
 			);
 			path = Hawkers;
 			sourceTree = "<group>";
@@ -234,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7495CF2D20227DF300C77827 /* Sidebar.xib in Resources */,
 				7495CEFB201FA20800C77827 /* Assets.xcassets in Resources */,
 				7495CEFE201FA20800C77827 /* Main.storyboard in Resources */,
 			);
@@ -262,6 +269,7 @@
 			files = (
 				7495CEF7201FA20800C77827 /* ViewController.swift in Sources */,
 				7495CEF5201FA20800C77827 /* AppDelegate.swift in Sources */,
+				7495CF2C20227DF300C77827 /* Sidebar.swift in Sources */,
 				7495CEF9201FA20800C77827 /* Document.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

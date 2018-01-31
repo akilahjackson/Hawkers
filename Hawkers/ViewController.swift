@@ -11,9 +11,7 @@ import Cocoa
 class ViewController: NSViewController {
     
  
-    @IBOutlet weak var sidebarMenu: NSToolbarItem!
-    @IBOutlet weak var sideBar: NSStackView!
-    
+   
     override func viewDidLoad() {
         super.viewDidLoad()
 
